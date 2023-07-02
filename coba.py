@@ -4,7 +4,7 @@ import schedule
 import time
 
 # Inisialisasi bot Telegram
-bot = telebot.TeleBot('6187243758:AAH0hlAuFl2t8j8CdQ2CU9YB2YRxe8JUHks')
+bot = telebot.TeleBot('bot id')
 
 # Fungsi untuk membagi pesan menjadi beberapa bagian
 
@@ -21,7 +21,7 @@ def send_notification(message):
 
     for part in message_parts:
         # Ganti CHAT_ID dengan ID chat yang sesuai
-        bot.send_message('-1001574229468', part)
+        bot.send_message('CHAT_ID', part)
 
 # Fungsi untuk memonitor perangkat MikroTik
 
